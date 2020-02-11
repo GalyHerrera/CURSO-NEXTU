@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <factura id="123" fecha="2019-08-06" >
+        <cliente>
+            <nombre>Galy<nombre>
+            <telefono>0997099796<telefono>
+        </cliente>
+          <articulos id="1">
+            <descripcion>atun<descripcion>
+            <precio_unitario>20<precio_unitario>
+            <precio_final>20<precio_final>
+            <cantidad>20<cantidad>
+        </articulos>
+        </precio_total>40 <precio_total>
+
+
+    </factura>

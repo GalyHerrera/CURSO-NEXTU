@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>autoplay</h2>
+    <p>Reproduce el video inmediatamente se abre la Web, sin necesidad de dar clic en el boton de reproduccion</p>
+    <audio src="media/audio.mp3" controls autoplay></audio>
+
+    <h2>loop</h2>
+    <p>Este atributo se encarga automaticamente de reproducir el audio siempre que termine</p>
+   
+    <audio src="media/audio.mp3" controls loop ></audio>
+
+    <h2>preload</h2>
+    <p>Este atributo tiene un comportamiento especial. Cuando estamos con archivos  multimedia que son muy pesados los almacena en una memoria temporal</p>
+    <ul>
+        <li>none : No almacenar temporalmente nuestros archivos</li>
+            <audio src="media/audio.mp3" controls preload="none"></audio>
+        <li>auto: Almacena temporalmente el archivo multimedia.</li>
+            <audio src="media/audio.mp3" controls preload="auto"></audio>
+    </ul>
+   
+
+</body>
+</html>
